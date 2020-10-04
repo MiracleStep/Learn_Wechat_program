@@ -1,1 +1,4 @@
-<text>Hello World</text>
+<view>
+{{counter}}
+</view>
+<button bindtap='add'>+</button>

@@ -1,5 +1,28 @@
 {
   "pages":[
+    "pages/profile/profile",
     "pages/index/index"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/profile/profile",
+      "text": "主页",
+      "iconPath": "assets/1 (1).png",
+      "selectedIconPath": "assets/1 (1).png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "索引",
+      "iconPath": "assets/1 (1).png",
+      "selectedIconPath": "assets/1 (1).png"
+    }
+    ]
+  }
 }
