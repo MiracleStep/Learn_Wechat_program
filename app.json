@@ -1,5 +1,6 @@
 {
-  "pages":[
+  "pages": [
+    "pages/home/home",
     "pages/profile/profile",
     "pages/index/index"
   ],
@@ -12,17 +13,20 @@
     "enablePullDownRefresh": true
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/profile/profile",
-      "text": "主页",
-      "iconPath": "assets/1 (1).png",
-      "selectedIconPath": "assets/1 (1).png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "索引",
-      "iconPath": "assets/1 (1).png",
-      "selectedIconPath": "assets/1 (1).png"
-    }
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "主页",
+        "iconPath": "assets/1 (1).png",
+        "selectedIconPath": "assets/1 (1).png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "索引",
+        "iconPath": "assets/1 (1).png",
+        "selectedIconPath": "assets/1 (1).png"
+      }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap59.json"
 }

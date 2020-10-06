@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+
+<button bindtap="choose_myphoto">选择图片</button>
+<image src="{{imgdata}}"></image>
